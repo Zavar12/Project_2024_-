@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,
+initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Корзина</title>
+</head>
+<body>
+    <header class="header">
+        <a href="main.html" class="logo">
+        <div class="logo">
+            <span class="logo-f">F</span><span class="logo-p">P</span>
+        </div>
+        </a>
+        <nav class="menu">
+            <ul class="menu-list">
+                <li>
+                    <a href="main.html" class="menu-item">Главная</a>
+                </li>
+                <li>
+                    <a href="catalog.html" class="menu-item">Каталог</a>
+                </li>
+                <li>
+                    <a href="basket.html" class="menu-icon"><img src="img/shopping-cart.png" alt="Корзина" class="icon"></a>
+                </li>
+                <li>
+                    <a href="registration.html" class="menu-icon"><img src="img/profile.png" alt="Профиль" class="icon"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+   
+    <body>
+        <div class="cart-container">
+        
+            <div class="products-section">
+                <div class="product-item-basket">
+                    <img src="img/red roses.png" alt="Букет из красных роз" class="product-image-basket">
+                    <div class="product-details">
+                        <h3>Букет из красных роз</h3>
+                        <div class="product-quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                        <div class="product-price-basket">999 Руб.</div>
+                    </div>
+                </div>
+    
+                <div class="product-item-basket">
+                    <img src="img/white tulpani.png" alt="Букет из белых тюльпанов" class="product-image-basket">
+                    <div class="product-details">
+                        <h3>Букет из белых тюльпанов</h3>
+                        <div class="product-quantity">
+                            <button>-</button>
+                            <span>1</span>
+                            <button>+</button>
+                        </div>
+                        <div class="product-price-basket">999 Руб.</div>
+                    </div>
+                </div>
+            </div>
+    
+     
+            <div class="cart-summary">
+                <h2>Ваша корзина</h2>
+                <hr>
+                <div class="cart-details">
+                    <p>Товары (2): <span>1998 Руб.</span></p>
+                    <p>Доставка: <span>Бесплатно</span></p>
+                </div>
+                <div class="cart-total">
+                    <p><strong>Итого:</strong> <span>1998 Руб.</span></p>
+                </div>
+                <hr>
+                <button class="checkout-button" onclick="window.location.href = 'order page.html';">Оформить заказ</button>
+                <div class="cart-checkboxes">
+                    <label>
+                        <input type="checkbox"> Оформляя заказ, вы даете согласие на обработку персональных данных.
+                    </label>
+                    <label>
+                        <input type="checkbox"> Согласен с условиями использования.
+                    </label>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
+    <footer class="footer">
+        <div class="footer-logo">
+            <a href="main.html" class="logo">
+                <span class="logo-f">F</span><span class="logo-p">P</span>
+            </a>
+        </div>
+        <div class="footer-contacts">
+            <p class="footer-item">Контакты:</p>
+            <p class="footer-item">Тел. +79969512750</p>
+            <p class="footer-item">Email: evstivlad777@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
